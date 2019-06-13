@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>Document</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    
+</head>
+<body>
+<p class="text">Tic Tac Toe</p>
+<div class="container">
+    <div class="row">
+        <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+        <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+        <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+    </div>
+    <div class="row">
+            <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+            <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+            <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+        </div>
+        <div class="row">
+                <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+                <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+                <div class="cuadro col d-flex align-items-center justify-content-center"></div>
+        </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+alert("BIENVENIDO")
+    var i = 0;
+    $('.cuadro').click(function(){
+        if (i==0) {
+            $(this).html("X");
+            i = 1;
+        }else{
+            $(this).html("O");
+            i = 0;
+        }
+    });
+})
+    </script>

@@ -1,0 +1,22 @@
+    body{
+        background-color: black;
+    }
+    .cuadro{
+        background-color: brown;
+        height: 150px;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 120px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    .text{
+    font-size: 80px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    }
+    .row{
+        margin-top: 10px;
+    }
